@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.glavni{
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(243, 223, 194);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav{
+    width: 100%;
+    height: 12%;
+    background-color: rgb(241, 150, 166);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   justify-content: space-between;
+   flex-direction: row-reverse;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-left: 20px;
+
+
+
+}
+ul li a{
+    text-decoration: none; 
+    color: white;
+ }
+ .nav a:hover{
+    background-color: rgb(204, 12, 118);
+  
+}
+
+
+.nav img{
+    width: 50px;
+    height: 50px;
+    margin-right: 37px ;
+    border-radius: 100%;
+   
+}
+a{
+    color: black;
+}
+.footer{
+    width: 100%;
+    height: 10%;
+    background-color:  rgb(241, 150, 166);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.main{
+    width: 100%;
+    height: 78%;
+    background-color: rgb(243, 223, 194); 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+h2{
+    color: palevioletred;
+    text-decoration: double;
+    
+    margin-top: 30px;
+    border: 3px solid palevioletred;
+    padding: 30px;
+    text-align: center;
+
+
+}
+p{
+    width: 100%;
+    height: 30%;
+ 
+   
+}
+.p1{
+    color: rgb(181, 11, 68);
+    margin-left: 500px;
+}
+h4{
+    color: pink;
+    text-align: center;
+    margin-left: 500px;
+}
+.mapa{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(243, 223, 194);
+   
+    
+}

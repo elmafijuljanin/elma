@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.glavni{
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.nav{
+    width: 100%;
+    height: 12%;
+    background-color: rgb(241, 150, 166);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   justify-content: space-between;
+   flex-direction: row-reverse;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-left: 20px;
+
+
+
+}
+ul li a{
+    text-decoration: none; 
+    color: white;
+ }
+ .nav a:hover{
+    background-color: rgb(204, 12, 118);
+  
+}
+
+
+.nav img{
+    width: 50px;
+    height: 50px;
+    margin-right: 37px ;
+    border-radius: 100%;
+   
+}
+.prvi{
+    width: 33.33%;
+    height: 100%;
+    background-color: palevioletred;
+}
+.footer{
+    width: 100%;
+    height: 10%;
+    background-color:  rgb(241, 150, 166);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.main{
+    width: 100%;
+    height: 78%;
+    background-color: rgb(243, 223, 194); 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.drugi{
+    width: 33.33%;
+    height: 100%;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.treci{
+    width: 33.33%;
+    height: 100%;
+    background-color: palevioletred;
+}
+.drugi img{
+    width: 100%;
+    height: 100%;
+}
+.ikone {
+    width: 100%;
+    min-height: 100%;
+    background-color: palevioletred;
+    
+}
+.ikone a{
+    display: block;
+    font-size: 100px;
+    text-align: center;
+    color: rgb(91, 7, 35);
+    margin-top: 40px;
+}
+.ikone a:hover {
+    background-color: pink;
+}
+p{
+    color: rgb(99, 12, 41);
+    margin-left: 30px;
+    margin-top: 160px;
+}
+h4{
+    color: pink;
+    margin-left: 500px;
+}

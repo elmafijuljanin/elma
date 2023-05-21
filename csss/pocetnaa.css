@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(243, 223, 194);
+}
+h3{
+    text-align: center;
+    text-decoration: dotted;
+    color: palevioletred;
+}
+button{
+    justify-content: center;
+    color: palevioletred;
+    text-decoration-color: palevioletred;
+    width: 300px;
+    height: 30px;
+}
+h2{
+    text-decoration: none;
+    color: palevioletred;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+}
